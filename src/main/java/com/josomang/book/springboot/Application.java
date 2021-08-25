@@ -1,3 +1,4 @@
+
 package com.josomang.book.springboot;
 
 import org.springframework.boot.SpringApplication;
