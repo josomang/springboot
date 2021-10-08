@@ -16,8 +16,10 @@ import static org.hamcrest.Matchers.is;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @RunWith(SpringRunner.class)
-@WebMvcTest(controllers = HelloController.class,excludeFilters = {
-        @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE,classes = SecurityConfig.class)
+@WebMvcTest(controllers = HelloController.class
+        ,excludeFilters = {
+        @ComponentScan.Filter(type = FilterType.
+                ASSIGNABLE_TYPE,classes = SecurityConfig.class)
 })
 public class HelloControllerTest {
 
