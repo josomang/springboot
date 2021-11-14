@@ -11,7 +11,7 @@ branches:
     -'$HOME/.gradle'
   script: "./gradlew clean build"
 
-  notifications:
+notifications:
   email:
-  recipients:
+    recipients:
   -whthakd1207@naver.com
