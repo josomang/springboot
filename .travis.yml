@@ -50,4 +50,4 @@ deploy:
     application: freelec-springboot2-webservice
     deployment_group: freelec-springboot2-webservice-group
     region: ap-northeast-2c
-    wait-until-deployed: true
+   # wait-until-deployed: true
