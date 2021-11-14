@@ -35,7 +35,7 @@ deploy:
     access_key_id: $AWS_ACCESS_KEY # Travis repo
     secret_access_key: $AWS_SECRET_KEY
     bucket: somang-springboot-build
-    region: ap-northeast-2
+    region: ap-northeast-2c
     skip_cleanup: true
     acl: private
     local_dir: deploy
@@ -49,5 +49,5 @@ deploy:
     bundle_type: zip
     application: freelec-springboot2-webservice
     deployment_group: freelec-springboot2-webservice-group
-    region: ap-northeast-2
+    region: ap-northeast-2c
     wait-until-deployed: true
