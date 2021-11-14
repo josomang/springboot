@@ -33,7 +33,6 @@ before_deploy:
 deploy:
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY # Travis repo setting
-
     secret_access_key: $AWS_SECRET_KEY
     bucket: somang-springboot-build
     region: ap-northeast-2
@@ -41,6 +40,7 @@ deploy:
     acl: private
     local_dir: deploy
     wait-until-deployed: true
+
   -provider : codedeploy
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
