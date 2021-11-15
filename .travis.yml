@@ -47,7 +47,7 @@ deploy:
     bucket: somang-springboot-build
     key: freelec-springboot2-webservice.zip
     bundle_type: zip
-    application: somang
-    deployment_group: somang-group
+    application: somang2
+    deployment_group: mimi
     region: ap-northeast-2
     wait-until-deployed: true
