@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.josomang.book.springboot.web.HelloControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-22T14:58:25" hostname="DESKTOP-2D8MH4Q" time="0.25">
+<testsuite name="com.josomang.book.springboot.web.HelloControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-22T15:04:50" hostname="DESKTOP-2D8MH4Q" time="0.223">
   <properties/>
-  <testcase name="hello가_리턴된다" classname="com.josomang.book.springboot.web.HelloControllerTest" time="0.124"/>
-  <testcase name="helloDto가_리턴된다" classname="com.josomang.book.springboot.web.HelloControllerTest" time="0.125"/>
+  <testcase name="hello가_리턴된다" classname="com.josomang.book.springboot.web.HelloControllerTest" time="0.116"/>
+  <testcase name="helloDto가_리턴된다" classname="com.josomang.book.springboot.web.HelloControllerTest" time="0.106"/>
   <system-out><![CDATA[
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -12,19 +12,19 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.1.RELEASE)
 
-2021-11-22 23:58:23.704  INFO 13768 --- [    Test worker] c.j.b.s.web.HelloControllerTest          : Starting HelloControllerTest on DESKTOP-2D8MH4Q with PID 13768 (started by c in C:\Users\c\IdeaProjects\com.josomang.book)
-2021-11-22 23:58:23.705  INFO 13768 --- [    Test worker] c.j.b.s.web.HelloControllerTest          : No active profile set, falling back to default profiles: default
-2021-11-22 23:58:24.353  INFO 13768 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-11-22 23:58:24.406  INFO 13768 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-11-22 23:58:24.698  INFO 13768 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+2021-11-23 00:04:48.822  INFO 10896 --- [    Test worker] c.j.b.s.web.HelloControllerTest          : Starting HelloControllerTest on DESKTOP-2D8MH4Q with PID 10896 (started by c in C:\Users\c\IdeaProjects\com.josomang.book)
+2021-11-23 00:04:48.824  INFO 10896 --- [    Test worker] c.j.b.s.web.HelloControllerTest          : No active profile set, falling back to default profiles: default
+2021-11-23 00:04:49.393  INFO 10896 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 00:04:49.443  INFO 10896 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 00:04:49.712  INFO 10896 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: 96aac057-1c21-4555-9a22-b591b8405e12
+Using generated security password: 45dec3f8-771f-4172-8c71-2cfc99d46d05
 
-2021-11-22 23:58:24.938  INFO 13768 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e42286e, org.springframework.security.web.context.SecurityContextPersistenceFilter@44f3e7b5, org.springframework.security.web.header.HeaderWriterFilter@15027ceb, org.springframework.security.web.csrf.CsrfFilter@f3fd376, org.springframework.security.web.authentication.logout.LogoutFilter@35ba193, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2c56e8d9, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@37fc314c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@62714ba4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@57bc9c45, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d4694c8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b2546af, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@511cad1b, org.springframework.security.web.session.SessionManagementFilter@417db106, org.springframework.security.web.access.ExceptionTranslationFilter@64d7a764, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4bf67e00]
-2021-11-22 23:58:25.035  INFO 13768 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2021-11-22 23:58:25.035  INFO 13768 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2021-11-22 23:58:25.056  INFO 13768 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 21 ms
-2021-11-22 23:58:25.078  INFO 13768 --- [    Test worker] c.j.b.s.web.HelloControllerTest          : Started HelloControllerTest in 1.438 seconds (JVM running for 12.605)
+2021-11-23 00:04:49.925  INFO 10896 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13290b1e, org.springframework.security.web.context.SecurityContextPersistenceFilter@23fd0696, org.springframework.security.web.header.HeaderWriterFilter@101e92b0, org.springframework.security.web.csrf.CsrfFilter@4329ada2, org.springframework.security.web.authentication.logout.LogoutFilter@2f756894, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4943a1ed, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@24d48589, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@b5ddafc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@57252196, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ed7555c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a38df24, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@750a7390, org.springframework.security.web.session.SessionManagementFilter@2ace9f9d, org.springframework.security.web.access.ExceptionTranslationFilter@1ed46875, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58c0209c]
+2021-11-23 00:04:50.003  INFO 10896 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-23 00:04:50.003  INFO 10896 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-23 00:04:50.021  INFO 10896 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 18 ms
+2021-11-23 00:04:50.047  INFO 10896 --- [    Test worker] c.j.b.s.web.HelloControllerTest          : Started HelloControllerTest in 1.273 seconds (JVM running for 10.672)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
