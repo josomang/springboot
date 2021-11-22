@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.josomang.book.springboot.web.PostsApiControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-10-11T13:46:55" hostname="DESKTOP-2D8MH4Q" time="0.185">
+<testsuite name="com.josomang.book.springboot.web.PostsApiControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-22T14:58:28" hostname="DESKTOP-2D8MH4Q" time="0.194">
   <properties/>
-  <testcase name="Posts_등록된다" classname="com.josomang.book.springboot.web.PostsApiControllerTest" time="0.132"/>
-  <testcase name="Posts_수정된다" classname="com.josomang.book.springboot.web.PostsApiControllerTest" time="0.052"/>
-  <system-out><![CDATA[2021-10-11 22:46:55.102  INFO 4108 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
-2021-10-11 22:46:55.102  INFO 4108 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2021-10-11 22:46:55.105  INFO 4108 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+  <testcase name="Posts_등록된다" classname="com.josomang.book.springboot.web.PostsApiControllerTest" time="0.121"/>
+  <testcase name="Posts_수정된다" classname="com.josomang.book.springboot.web.PostsApiControllerTest" time="0.07"/>
+  <system-out><![CDATA[2021-11-22 23:58:28.789  INFO 13768 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2021-11-22 23:58:28.790  INFO 13768 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-22 23:58:28.792  INFO 13768 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
 Hibernate: insert into posts (id, created_date, modified_date, author, content, title) values (null, ?, ?, ?, ?, ?)
 Hibernate: select posts0_.id as id1_0_, posts0_.created_date as created_2_0_, posts0_.modified_date as modified3_0_, posts0_.author as author4_0_, posts0_.content as content5_0_, posts0_.title as title6_0_ from posts posts0_
 Hibernate: select posts0_.id as id1_0_, posts0_.created_date as created_2_0_, posts0_.modified_date as modified3_0_, posts0_.author as author4_0_, posts0_.content as content5_0_, posts0_.title as title6_0_ from posts posts0_
 Hibernate: delete from posts where id=?
-2021-10-11 22:46:55.231  INFO 4108 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
-2021-10-11 22:46:55.231  INFO 4108 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2021-10-11 22:46:55.234  INFO 4108 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2021-11-22 23:58:28.909  INFO 13768 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2021-11-22 23:58:28.910  INFO 13768 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-22 23:58:28.913  INFO 13768 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
 Hibernate: insert into posts (id, created_date, modified_date, author, content, title) values (null, ?, ?, ?, ?, ?)
 Hibernate: select posts0_.id as id1_0_0_, posts0_.created_date as created_2_0_0_, posts0_.modified_date as modified3_0_0_, posts0_.author as author4_0_0_, posts0_.content as content5_0_0_, posts0_.title as title6_0_0_ from posts posts0_ where posts0_.id=?
 Hibernate: update posts set created_date=?, modified_date=?, author=?, content=?, title=? where id=?
